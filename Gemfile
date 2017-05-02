@@ -33,7 +33,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Add paperclip gem for image uploading functionality
-gem "paperclip", "~> 5.0.0"
+gem 'paperclip', '~> 5.0.0'
+
+# Add simple_form gem to make image uploading in the view easy!
+gem 'simple_form', '~> 3.4.0' 
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
