@@ -38,6 +38,9 @@ gem 'paperclip', '~> 5.0.0'
 # Add simple_form gem to make image uploading in the view easy!
 gem 'simple_form', '~> 3.4.0' 
 
+#Including the bootstrap-sass gem
+gem 'bootstrap-sass', '~> 3.3.5'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
