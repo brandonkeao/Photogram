@@ -20,9 +20,11 @@ class PostsController < ApplicationController
   end
 
   def show
+    flash.now[:success] = "Here is the single post you wanted to review!"
   end
 
   def edit
+    flash.now[:success] = "Please edit your post using the fields provided below"
   end
 
   def update
